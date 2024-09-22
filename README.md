@@ -1,16 +1,27 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**youseifMahmoud/youseifMahmoud** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![LinkedIn](https://img.shields.io/badge/Yousef%20Hany-LinkedIn-0077b5)](https://www.linkedin.com/in/yousef-hany-279aa5240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+[![GitHub](https://img.shields.io/badge/youseifMahmoud-GitHub-2b3137)](https://github.com/youseifMahmoud/)
+[![Download CV](https://img.shields.io/badge/Download-CV-coming%20soon-6b3237)](#)
+[![Email](https://img.shields.io/badge/Email-hskeybdjuqlmada%40gmail.com-red)](mailto:hskeybdjuqlmada@gmail.com)
 
-Here are some ideas to get you started:
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=25&duration=3000&pause=503&center=true&vCenter=true&width=1000&lines=Hello+Everyone;My+name+is+Yousef+Hany.;I+am+a+Software+Developer.;and+my+interests+include+%5BDjango%2C+PostgreSQL%2C+Python%5D" alt="Typing SVG" /></a>
+
+```python
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+
+@api_view(['POST'])
+def introduce_yourself(request):
+    name = request.data.get('name', 'Yousef Hany')
+    occupation = request.data.get('occupation', 'Software Developer')
+    interests = request.data.get('interests', ['Django', 'PostgreSQL', 'Python'])
+
+    introduction = f"Hello, my name is {name}. I am a {occupation} and my interests include {', '.join(interests)}."
+
+    return Response({'introduction': introduction})
+```
+
+<div align="center"> <br><p align="centre"><b>Visitors Count</b></p> <p align="center"><img align="center" src="https://profile-counter.glitch.me/{faresemad}/count.svg" /></p> <br> </div> <hr> <h3 align="left">Languages and Tools:</h3> <p align="left"> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.javascript.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p> <hr> 
