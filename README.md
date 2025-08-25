@@ -22,12 +22,13 @@ def introduce_yourself(request):
         'Python', 'Django', 'PostgreSQL', 'SQL'
     ])
 
-    introduction = f"Hello, my name is {name}. I am a {occupation}."
+    # نص منسق على سطرين
+    introduction = (
+        f"Hello, my name is {name}. I am a {occupation}.\n"
+        f"My skills include: {', '.join(skills)}."
+    )
 
-    return Response({
-        'introduction': introduction,
-        'skills': skills
-    })
+    return Response({'introduction': introduction})
 
 ```
 
