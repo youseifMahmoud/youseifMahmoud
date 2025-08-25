@@ -35,7 +35,14 @@ def introduce_yourself(request):
 
 ```
 
-<img src="https://komarev.com/ghpvc/?username=faresemad" alt="GitHub Profile Views Counter">
+<div align="center">
+  <br>
+  <p align="center"><b>Visitors Count</b></p>
+  <p align="center">
+    <img align="center" src="https://komarev.com/ghpvc/?username=faresemad" alt="GitHub Profile Views Counter">
+  </p>
+  <br>
+</div>
 
 
 ### 🤖Most Used Languages:
