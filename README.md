@@ -17,18 +17,15 @@
     def introduce_yourself(request):
         name = request.data.get('name', 'Yousef Hany')
         occupation = request.data.get('occupation', 'Fullstack Web Developer')
-        skills = request.data.get('skills', [
+        interests = request.data.get('interests', [
             'HTML', 'CSS', 'JavaScript',
-            'Python', 'Django', 'Django REST Framework',
-            'SQL', 'PostgreSQL'
+            'Python', 'Django', 'PostgreSQL', 'SQL'
         ])
     
-        introduction = {
-            'message': f"Hello, my name is {name}. I am a {occupation}.",
-            'skills': skills
-        }
+        introduction = f"Hello, my name is {name}. I am a {occupation} and my interests include {', '.join(interests)}."
     
-        return Response(introduction)
+        return Response({'introduction': introduction})
+
 ```
 
 <div align="center"> <br><p align="centre"><b>Visitors Count</b></p> <p align="center"><img align="center" src="https://profile-counter.glitch.me/{faresemad}/count.svg" /></p> <br> </div> <hr> <h3 align="left">Languages and Tools:</h3> <p align="left"> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.javascript.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p> <hr> 
