@@ -22,12 +22,13 @@ def introduce_yourself(request):
         'Python', 'Django', 'PostgreSQL', 'SQL'
     ])
 
-    # Markdown منسق
+    # رسالة جديدة منسقة بوضوح
     introduction = (
-        f"## 👋 Hello, my name is **{name}**\n\n"
-        f"I am a *{occupation}*.\n\n"
-        f"### 🚀 My Skills\n"
-        f"- " + "\n- ".join(skills)
+        f"### 👋 Hi there!\n\n"
+        f"My name is **{name}**.\n\n"
+        f"💼 I work as a *{occupation}*.\n\n"
+        f"### 🔧 Skills I use:\n"
+        + "".join([f"- {skill}\n" for skill in skills])
     )
 
     return Response({'introduction': introduction})
