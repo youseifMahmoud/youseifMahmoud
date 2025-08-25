@@ -10,21 +10,24 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=25&duration=3000&pause=503&center=true&vCenter=true&width=1000&lines=Hello+Everyone;My+name+is+Yousef+Hany.;I+am+a+Software+Developer.;and+my+interests+include+%5BDjango%2C+PostgreSQL%2C+Python%5D" alt="Typing SVG" /></a>
 
 ```python
-    from rest_framework.decorators import api_view
-    from rest_framework.response import Response
-    
-    @api_view(['POST'])
-    def introduce_yourself(request):
-        name = request.data.get('name', 'Yousef Hany')
-        occupation = request.data.get('occupation', 'Fullstack Web Developer')
-        interests = request.data.get('interests', [
-            'HTML', 'CSS', 'JavaScript',
-            'Python', 'Django', 'PostgreSQL', 'SQL'
-        ])
-    
-        introduction = f"Hello, my name is {name}. I am a {occupation} and my interests include {', '.join(interests)}."
-    
-        return Response({'introduction': introduction})
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+
+@api_view(['POST'])
+def introduce_yourself(request):
+    name = request.data.get('name', 'Yousef Hany')
+    occupation = request.data.get('occupation', 'Fullstack Web Developer')
+    skills = request.data.get('skills', [
+        'HTML', 'CSS', 'JavaScript',
+        'Python', 'Django', 'PostgreSQL', 'SQL'
+    ])
+
+    introduction = f"Hello, my name is {name}. I am a {occupation}."
+
+    return Response({
+        'introduction': introduction,
+        'skills': skills
+    })
 
 ```
 
