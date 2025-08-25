@@ -35,15 +35,7 @@ def introduce_yourself(request):
 
 ```
 
-<div align="center"> 
-  <br>
-  <p align="centre"><b>Visitors Count</b></p> 
-  <p align="center">
-    <img align="center" src="https://profile-counter.glitch.me/yousefhany/count.svg" />
-  </p> 
-  <br> 
-</div>
-<hr>
+<img src="https://komarev.com/ghpvc/?username=faresemad" alt="GitHub Profile Views Counter">
 
 
 ### 🤖Most Used Languages:
