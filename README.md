@@ -1,55 +1,83 @@
-<div align="center">
+<img align="right" width="300" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3ZyN2p3c3d2bTF6Y3N4aXh2c2U4c3R0cnd5cXR2eGd1YzZtZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/L8K62iTDkzGX6/giphy.gif"/>
 
-[![LinkedIn](https://img.shields.io/badge/Yousef%20Hany-LinkedIn-0077b5)](https://www.linkedin.com/in/yousef-hany-dev/)
-[![GitHub](https://img.shields.io/badge/youseifMahmoud-GitHub-2b3137)](https://github.com/youseifMahmoud/)
-[![Download Resume](https://img.shields.io/badge/Download-Resume-6b3237)](https://github.com/youseifMahmoud/youseifMahmoud/blob/main/Yousef%20Hani%20Muhamed.pdf)
-[![Download CV](https://img.shields.io/badge/Download-CV-2b6cb0)](https://github.com/youseifMahmoud/youseifMahmoud/blob/main/Yousef_Hany_Muhamad_cv.pdf)
-[![Email](https://img.shields.io/badge/Email-youusefhani634@gmail.com-red)](mailto:youusefhani634@gmail.com)
+<h2 align="center">Hi, I'm Yousef Hany 👋</h2>
 
-</div>
+<h3 align="center">
+Full-Stack Python Developer | Django • PostgreSQL • Backend
+</h3>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=25&duration=3000&pause=503&center=true&vCenter=true&width=1000&lines=Hello+Everyone;My+name+is+Yousef+Hany.;I+am+a+Software+Developer.;and+my+interests+include+%5BDjango%2C+PostgreSQL%2C+Python%5D" alt="Typing SVG" /></a>
+<p align="center">
+Clean Code • Secure Systems • Real Applications
+</p>
 
-```python
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
+### 📬 Contact Me
+<p align="center">
+  <a href="mailto:youusefhani634@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/yousef-hany-dev/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/youseifMahmoud">
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
-@api_view(['POST'])
-def introduce_yourself(request):
-    name = request.data.get('name', 'Yousef Hany')
-    occupation = request.data.get('occupation', 'Fullstack Web Developer')
-    skills = request.data.get('skills', [
-        'HTML', 'CSS', 'JavaScript',
-        'Python', 'Django', 'PostgreSQL', 'SQL'
-    ])
+---
 
-    # رسالة جديدة منسقة بوضوح
-    introduction = (
-        f"### 👋 Hi there!\n\n"
-        f"My name is **{name}**.\n\n"
-        f"💼 I work as a *{occupation}*.\n\n"
-        f"### 🔧 Skills I use:\n"
-        + "".join([f"- {skill}\n" for skill in skills])
-    )
+### 👨‍💻 About Me
+- 🎯 Junior Full-Stack Developer focused on **Python & Django**
+- 🧠 Strong background in **backend development, databases, and REST APIs**
+- 🔐 Experience with **authentication, security basics, and cybersecurity fundamentals**
+- 🚀 Passionate about learning, problem-solving, and building real-world applications
 
-    return Response({'introduction': introduction})
+---
 
-```
+### 🛠 Tech Stack
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="35"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="35"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="35"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="35"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="35"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="35"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="35"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="35"/>
+</p>
 
-<div align="center">
-  <br>
-  <p align="center"><b>Visitors Count</b></p>
-  <p align="center">
-    <img align="center" src="https://komarev.com/ghpvc/?username=faresemad" alt="GitHub Profile Views Counter">
-  </p>
-  <br>
-</div>
+---
 
+### 💼 Experience & Training
+**ITI — Full Stack Using Python (Intern)**  
+*Aug 2024 – Sept 2024*  
+- Built Django-based web applications with advanced search and filtering
+- Designed and optimized **PostgreSQL databases**
+- Developed dynamic forms with real-time validation using JavaScript
 
-### 🤖Most Used Languages:
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=faresemad&theme=slateorange)](https://github.com/anuraghazra/github-readme-stats)
+**ITI — Cyber Security Track**  
+*July 2024 – Aug 2024*  
+- Implemented secure authentication systems in Django
+- Worked with **Fortigate & Palo Alto firewalls**
+- Built Python tools for vulnerability scanning and penetration testing
 
-<hr>
+**IEEE — Python Training**  
+- Developed automation scripts and foundational Python projects
+- Worked with data handling and testing utilities
 
-## ⚡ Fun fact
-- “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” — Martin Fowler
+---
+
+### 🚀 Projects
+- **Educational LMS Platform**  
+  Django-based learning management system with secure video lessons, quizzes, dashboards, and certificates
+
+- **Library Management System**  
+  Web application for managing books, users, and borrowing history using Django & PostgreSQL
+
+- **E-Learning Platform**  
+  Online learning system with progress tracking and real-time collaboration features
+
+---
+
+<p align="center">
+✨ Built with Python • Powered by Django • Always Learning ✨
+</p>
