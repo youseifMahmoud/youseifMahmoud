@@ -3,15 +3,14 @@
 <h2 align="center">Hi, I'm Yousef Hany 👋</h2>
 
 <h3 align="center">
-Full-Stack Python Developer | Django • PostgreSQL • Backend
+Front End Developer
 </h3>
-
-<p align="center">
-Clean Code • Secure Systems • Real Applications
-</p>
 
 ### 📬 Contact Me
 <p align="center">
+  <a href="https://github.com/youseifMahmoud/youseifMahmoud/blob/main/Yousef_Hany_Muhamad_cv.pdf">
+    <img src="https://img.shields.io/badge/Download%20CV-004F90?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
+  </a>
   <a href="mailto:youusefhani634@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
